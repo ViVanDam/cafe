@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  height: 80px;
+  background-color: cadetblue;
+  color: #ffff;
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+
+header .logo {
+  width: 500px;
+  padding-left: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.logo h4 {
+  font-size: 30px;
+  text-shadow: 1px 1px 5px white;
+  cursor: pointer;
+  margin-left: 100px;
+}
+
+header .nav {
+  flex: 1;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+
+.nav ul li {
+  width: 100%;
+  height: 100%;
+  display: block;
+  text-align: center;
+}
+
+.nav li a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  line-height: 80px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.nav li a:hover {
+  text-decoration: underline;
+  color: #ddd;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  /* align-items: center; */
+  height: 360px;
+  background-color: cadetblue;
+  padding-top: 50px;
+  color: #fff;
+  border-top: 3px solid white;
+}
+
+footer .email {
+  border: 1px solid white;
+  display: flex;
+  height: 34px;
+  background-color: transparent;
+  margin-top: 10px;
+}
+
+footer .email .enter-email {
+  flex: 1;
+  background-color: transparent;
+  border: none;
+}
+
+footer .email .enter-email:focus {
+  border: none;
+  outline: none;
+  height: 34px;
+  line-height: 34px;
+  color: #fff;
+  padding: 10px;
+}
+
+footer .email .btn-email {
+  width: 50px;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  border-left: 2px solid white;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+footer .right-footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer .right-footer a:hover {
+  text-decoration: underline;
+  color: #ddd;
+}
