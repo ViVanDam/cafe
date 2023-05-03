@@ -4,12 +4,12 @@
     </div>
     <div class="nav">
         <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About Us</a></li>
-            <li><a href="">Menu</a></li>
-            <li><a href="">Online Order</a></li>
-            <li><a href="">Contact Us</a></li>
-            <li><a href="">Log In</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="aboutus.php">About Us</a></li>
+            <li><a href="menu.php">Menu</a></li>
+            <li><a href="order.php">Online Order</a></li>
+            <li><a href="contact.php">Contact Us</a></li>
+            <li><a href="login.php">Log In</a></li>
         </ul>
     </div>
 </header>

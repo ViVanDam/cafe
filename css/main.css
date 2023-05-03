@@ -19,6 +19,8 @@ header {
   right: 0;
   left: 0;
   z-index: 1;
+  opacity: 1;
+  transition: all 2s linear;
 }
 
 header .logo {
@@ -125,4 +127,11 @@ footer .right-footer a {
 footer .right-footer a:hover {
   text-decoration: underline;
   color: #ddd;
+}
+
+.hidden {
+  transform: translateY(-100%);
+  top: -100px;
+  opacity: 0;
+  transition: all 2s linear;
 }
